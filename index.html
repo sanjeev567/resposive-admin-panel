@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+        href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Accusoft</title>
+</head>
+
+<body>
+    <!-- sidebar -->
+    <input type="checkbox" id="bars-toggle">
+    <aside class="sidebar">
+        <ul>
+            <li><a href="#"><i class="lab la-accusoft"></i><span>Accusoft</span></a></li>
+            <li><a href="#" class="active"><i class="las la-igloo"></i><span>Dashboard</span></a></li>
+            <li><a href="#"><i class="las la-users"></i> <span>Customers</span></a></li>
+            <li><a href="#"><i class="las la-clipboard-list"></i> <span>Projects</span></a></li>
+            <li><a href="#"><i class="las la-shopping-bag"></i> <span>Orders</span></a></li>
+            <li><a href="#"><i class="las la-receipt"></i> <span>Inventory</span></a></li>
+            <li><a href="#"><i class="las la-user-circle"></i> <span>Accounts</span></a></li>
+            <li><a href="#"><i class="las la-clipboard-list"></i> <span>Task</span></a></li>
+        </ul>
+
+    </aside>
+
+    <!-- header -->
+    <header class="main-header">
+        <ul>
+            <label for="bars-toggle">
+                <li><i class="las la-bars"></i><span>Dashboard</span> </li>
+            </label>
+            <div class="search">
+                <input type="text" placeholder="Search Here">
+                <i class="las la-search"></i>
+            </div>
+            <div class="user">
+                <img src="img/me.png" alt="me">
+                <div class="name">
+                    <span>John Doe</span>
+                    <small>Super admin</small>
+                </div>
+            </div>
+
+        </ul>
+    </header>
+
+    <!-- carts-section -->
+    <section class="carts">
+        <div class="cart">
+            <div>
+                <h1>54K</h1>
+                <p>Customers</p>
+            </div>
+            <div>
+                <i class="las la-users"></i>
+            </div>
+        </div>
+        <div class="cart">
+            <div>
+                <h1>54K</h1>
+                <p>Projects</p>
+            </div>
+            <div>
+                <i class="las la-clipboard-list"></i>
+            </div>
+        </div>
+        
+        <div class="cart">
+            <div>
+                <h1>124</h1>
+                <p>Orders</p>
+            </div>
+            <div>
+                <i class="las la-shopping-bag"></i>
+            </div>
+        </div>
+        <div class="cart">
+            <div>
+                <h1>$6K</h1>
+                <p>Income</p>
+            </div>
+            <div>
+                <i class="las la-wallet"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- user table -->
+    <section class="user-table">
+        <div class="recent-project">
+            <div class="tab-title">
+                <h1>Recent Projects</h1>
+                <button class="btn">
+                    see all <i class="las la-arrow-right"></i>
+                </button>
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Project title</th>
+                        <th>Departments</th>
+                        <th>Status</th>
+                    </tr>
+                
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>UI/UX Design</td>
+                        <td>UI Team</td>
+                        <td><span class="status status-review"></span> Review</td>
+                    </tr>
+                    <tr>
+                        <td>Database Engineer</td>
+                        <td>DBA Team</td>
+                        <td><span class="status status-pending"></span> Pending</td>
+                    </tr>
+                    <tr>
+                        <td>Machine learning</td>
+                        <td>Ml Team</td>
+                        <td><span class="status status-review"></span> Review</td>
+                    </tr>
+                    <tr>
+                        <td>Artificial Intelligence Project</td>
+                        <td>AI Team</td>
+                        <td><span class="status status-success"></span> Success</td>
+                    </tr>
+                    <tr>
+                        <td>Mobile Development</td>
+                        <td>Android Team</td>
+                        <td><span class="status status-pending"></span> Pending</td>
+                    </tr>
+                    <tr>
+                        <td>UI/UX Design</td>
+                        <td>UI Team</td>
+                        <td><span class="status status-review"></span> Review</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="new-user">
+            <div class="tab-title">
+                <h1>New Customers</h1>
+                <button class="btn">
+                    see all <i class="las la-arrow-right"></i>
+                </button>
+            </div>
+            <div class="user-info">
+                <div class="user-img">
+                    <img src="img/me.png" alt="meError">
+                </div>
+                <div class="user-name">
+                    <h3>Sanjeev singh</h3>
+                    <p>Programmer</p>
+                </div>
+                <div class="user-icon">
+                    <i class="las la-user"></i>
+                    <i class="las la-comment"></i>
+                    <i class="las la-phone"></i>
+                </div>
+            </div>
+            <div class="user-info">
+                <div class="user-img">
+                    <img src="img/me.png" alt="meError">
+                </div>
+                <div class="user-name">
+                    <h3>Sanjeev singh</h3>
+                    <p>Programmer</p>
+                </div>
+                <div class="user-icon">
+                    <i class="las la-user"></i>
+                    <i class="las la-comment"></i>
+                    <i class="las la-phone"></i>
+                </div>
+            </div>
+            <div class="user-info">
+                <div class="user-img">
+                    <img src="img/me.png" alt="meError">
+                </div>
+                <div class="user-name">
+                    <h3>Sanjeev singh</h3>
+                    <p>Programmer</p>
+                </div>
+                <div class="user-icon">
+                    <i class="las la-user"></i>
+                    <i class="las la-comment"></i>
+                    <i class="las la-phone"></i>
+                </div>
+            </div>
+            <div class="user-info">
+                <div class="user-img">
+                    <img src="img/me.png" alt="meError">
+                </div>
+                <div class="user-name">
+                    <h3>Sanjeev singh</h3>
+                    <p>Programmer</p>
+                </div>
+                <div class="user-icon">
+                    <i class="las la-user"></i>
+                    <i class="las la-comment"></i>
+                    <i class="las la-phone"></i>
+                </div>
+            </div>
+            <div class="user-info">
+                <div class="user-img">
+                    <img src="img/me.png" alt="meError">
+                </div>
+                <div class="user-name">
+                    <h3>Sanjeev singh</h3>
+                    <p>Programmer</p>
+                </div>
+                <div class="user-icon">
+                    <i class="las la-user"></i>
+                    <i class="las la-comment"></i>
+                    <i class="las la-phone"></i>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+
+</body>
+
+</html>
