@@ -16,8 +16,7 @@ body{
     background: #f0f0f0;
 }
 :root{
-    --main-color: coral;
-    /* --main-color: #DD2F6E; */
+    --main-color: #DD2F6E;
     --color-dark: #1D2231;
     --text-color: #8390A2;
 }
